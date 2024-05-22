@@ -1,5 +1,5 @@
 import { Basket } from '@/components/basket';
-import { Footer, Navigation } from '@/components/common';
+import { Footer, Navigation, BuyMeACoffeeButton } from '@/components/common';
 import * as ROUTES from '@/constants/routes';
 import { createBrowserHistory } from 'history';
 import React from 'react';
@@ -17,6 +17,7 @@ const AppRouter = () => (
   <Router history={history}>
     <>
       <Navigation />
+      <BuyMeACoffeeButton />
       <Basket />
       <Switch>
         <Route
