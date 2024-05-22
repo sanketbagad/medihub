@@ -39,9 +39,9 @@ const Home = () => {
         <div className="banner">
           <div className="banner-desc">
             <h1 className="text-thin">
-              <strong>Care </strong>
-              &nbsp;in Every Click&nbsp;
-              <strong>- Your Go-To Online Medical Store.</strong>
+              <strong>Care in Every Click </strong>
+              &nbsp;- Your Go-To Online&nbsp;
+              <strong> Medical Store💊.</strong>
             </h1>
             <p>
               MediHub: Your trusted online pharmacy offering a wide range of
